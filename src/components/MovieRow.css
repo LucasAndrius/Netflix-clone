@@ -8,15 +8,18 @@
 .movieRow--listarea{
     overflow-x: hidden;
     padding-left:30px;
+    
 }
 
 .movieRow--list{
     width:99999px;
+    
 }
 
 .movieRow--item{
     display: inline-block;
     width:150px;
+    cursor: pointer;
 }
 .movieRow--item img{
     width:100%;
