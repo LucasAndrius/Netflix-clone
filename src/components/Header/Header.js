@@ -5,6 +5,7 @@ import './Header.css';
 export default ({black}) => {
     return(
         <header className={black? 'black' : ''}>
+            
            <div className="header--logo">
                <a href="/">
                    <img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Netflix_2014_logo.svg" alt="Netflix"/>
