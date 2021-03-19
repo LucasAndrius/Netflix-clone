@@ -2,8 +2,9 @@ import React,{useEffect, useState} from 'react';
 import Tmdb from './Tmdb';
 import './App.css';
 
-import MovieRow from './components/MovieRow';
-import FeaturedMovie from './components/FeaturedMovie';
+import MovieRow from './components/MovieRow/MovieRow';
+import FeaturedMovie from './components/Featured/FeaturedMovie';
+import Header from './components/Header/Header';
 
 
 export default () => {
@@ -11,6 +12,7 @@ export default () => {
 
   const [movieList, setMovieList] = useState([]);
   const [featuredData, setFaturedData] = useState(null);
+  const [blackHeader, setBlackHeader] = useState(false);
 
   useEffect(() =>{
     const loadAll = async () =>{
@@ -28,10 +30,27 @@ export default () => {
     loadAll();
   },  []);
 
+
+  useEffect(()=>{
+    const scrollListener = () =>{
+      if(window.scrollY > 10 ){
+        setBlackHeader(true);
+      } else {
+        setBlackHeader(false);
+      }
+    }
+
+    window.addEventListener('scroll',scrollListener);
+
+    return() =>{
+      window.removeEventListener('scroll',scrollListener);
+    }
+
+  },[]);
   
   return(
     <div className="page">
-
+      <Header black={blackHeader}/>
       {featuredData &&
         <FeaturedMovie item={featuredData}/>
       }
@@ -43,6 +62,19 @@ export default () => {
         ))
         }
       </section>
+      <footer>
+         Criado por<span role="img" aria-label="heart"> 🦊 Lucas Oliveira</span><br/>
+         Direitos de imagem para Netflix<br/>
+         Dados pegos do site <a href="https://www.themoviedb.org/?language=pt-BR">Themoviedb.org</a>
+
+      </footer>
+
+        {movieList.length <= 0 &&
+          <div className="loading">
+            <img src="https://cdn.lowgif.com/small/0534e2a412eeb281-the-counterintuitive-tech-behind-netflix-s-worldwide.gif" alt="Carregando"/>
+          </div>
+        }
+      
     </div>
   );
 }
