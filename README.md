@@ -1,70 +1,94 @@
-# Getting Started with Create React App
+<h4 align="center">
+	🏁  Netflix  🏁
+</h4>
+<hr/>
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/LucasAndrius/pomodoro?color=%2304D361&style=for-the-badge">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/LucasAndrius/pomodoro?style=for-the-badge">
 
-## Available Scripts
+  <a href="https://github.com/LucasAndrius/move.it/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/LucasAndrius/pomodoro?style=for-the-badge">
+  </a>
 
-In the project directory, you can run:
+   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen?style=for-the-badge">
+   <a href="https://github.com/LucasAndrius/pomodoro/stargazers">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/LucasAndrius/pomodoro?style=for-the-badge">
+  </a>
 
-### `yarn start`
+</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `yarn test`
+<p align="center">
+ <a href="#--sobre-o-projeto">Sobre</a> •
+ <a href="#-%EF%B8%8F-funcionalidades">Funcionalidades</a> •
+ <a href="#--como-executar-o-projeto">Como executar</a> •
+ <a href="#--tecnologias">Tecnologias</a> •
+  <a href="#--licença">Licença</a>•
+ </p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![imagem do projeto Netflix](link da imagem upada no github)
 
-### `yarn build`
+<a href="">Demonstração</a>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## [](https://github.com/LucasAndrius/Netflix-clone#--sobre-o-projeto) 💻 Sobre o projeto
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Em breve
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `yarn eject`
+## [](https://github.com/LucasAndrius/Netflix-clone#-%EF%B8%8F-funcionalidades) ⚙️ Funcionalidades
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+em Breve
+---
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## [](https://github.com/LucasAndrius/Netflix-clone#--como-executar-o-projeto) 🚀 Como executar o projeto
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Pré-requisitos
+Em breve
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+#### 🧭 Rodando a aplicação
 
-## Learn More
+```bash
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Clone este repositório
+$ git clone git@github.com:LucasAndrius/pomodoro.git
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Acesse a pasta do projeto no seu terminal/cmd
+$ cd move.it
 
-### Code Splitting
+# Instale as dependências
+$ npm install
+# ou
+$ yarn
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# Execute a aplicação em modo de desenvolvimento
+$ npm run dev
+# ou
+$ yarn dev
 
-### Analyzing the Bundle Size
+# A aplicação será aberta na porta:3000 - acesse http://localhost:3000
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## [](https://github.com/LucasAndrius/Netflix-clone#--tecnologias) 🛠 Tecnologias
 
-### Advanced Configuration
+#### **Aplicação** (**[React](https://reactjs.org/)**)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+#### **Utilitários**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- Editor: **[Visual Studio Code](https://code.visualstudio.com/)**
+- Fonte geral:
 
-### `yarn build` fails to minify
+#### **Hospedagem** (**[Vercel](https://vercel.com/)**)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+
+## [](https://github.com/LucasAndrius/Netflix-clone#--licença) 📝 Licença
+
+Este projeto esta sobe a licença MIT.
