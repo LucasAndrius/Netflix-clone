@@ -13,9 +13,7 @@
 Projeto desenvolvido para aprofundar meus conhecimentos de **ReactJS**.
 
 
-
 ## ⚙️ Funcionalidades
-
 - [x] Header:
 
   - [x] menu fixo no topo e ao sair do topo deve alterar a cor de fundo
@@ -24,7 +22,7 @@ Projeto desenvolvido para aprofundar meus conhecimentos de **ReactJS**.
   - [x] menu suspenso usuário
 
 - [x] Loading
-
+ 
 - [x] Card:
 
   - [x] deve conter apenas a imagem de fundo
